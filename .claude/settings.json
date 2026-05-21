@@ -1,0 +1,13 @@
+{
+  "hooks": [
+    {
+      "matcher": "Write",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "python -m skill_sdk_aila.hooks.claude_refresh"
+        }
+      ]
+    }
+  ]
+}

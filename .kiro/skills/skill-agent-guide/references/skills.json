@@ -1,0 +1,17 @@
+[
+  {
+    "name": "aila-catalog-sdk",
+    "description": "AILA Catalog SDK \u2014 skill discovery, resource management, catalog operations",
+    "provider_name": "skill-library-aila"
+  },
+  {
+    "name": "workspace-management",
+    "description": "Kiro workspace lifecycle \u2014 define, generate, catalog, publish",
+    "provider_name": "aws-cloud-provider"
+  },
+  {
+    "name": "generic-sdlc",
+    "description": "Structured software development lifecycle from idea to implementation",
+    "provider_name": "aws-cloud-provider"
+  }
+]

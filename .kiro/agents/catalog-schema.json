@@ -1,0 +1,13 @@
+{
+  "name": "catalog-schema",
+  "description": "Expert in aila-catalog-schema types: KiroWorkspace, KiroAgent, CatalogConverter, AgenticContext, BaseAgentConfig. Delegate for type-level questions about workspace generation, catalog conversion, and agent configuration.",
+  "prompt": "file://../../prompts/wsg-default-catalog-schema.md",
+  "tools": [
+    "code",
+    "fs_read",
+    "execute_bash"
+  ],
+  "allowedTools": [],
+  "resources": [],
+  "includeMcpJson": true
+}

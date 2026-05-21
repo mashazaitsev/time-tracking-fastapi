@@ -1,0 +1,1 @@
+../../prompts/wsg-agent-guide.md

@@ -1,0 +1,13 @@
+[build-system]
+requires = [ "setuptools>=61.0,<70.0", "wheel",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "full-stack-fastapi-template"
+version = "0.1.0"
+
+[tool.uv.workspace]
+members = [ "backend",]
+
+[project.entry-points."aila.skill_providers"]
+full-stack-fastapi-template = "full_stack_fastapi_template:get_skills_directory"

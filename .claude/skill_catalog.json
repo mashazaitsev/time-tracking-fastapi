@@ -1,0 +1,1790 @@
+[
+  {
+    "name": "aila-knowledge-skill",
+    "description": "Knowledge extraction and management skill for knowledge-kiro-cli provider",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "knowledge-kiro-cli",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/knowledge-kiro-cli/knowledge_kiro_cli/skills/aila-knowledge-skill"
+  },
+  {
+    "name": "external-skill-integration",
+    "description": "Integrate external skill packages from third-party sources (GitHub, GitLab, local copies) \ninto AILA Catalog SDK discovery system. Configure skill adapters to discover skills from \nnon-DataArt repositories using Python entry points or environment variables.\n",
+    "category": "skill-management",
+    "tags": [
+      "skills",
+      "integration",
+      "discovery",
+      "external-packages",
+      "configuration"
+    ],
+    "version": "1.0.0",
+    "author": "DataArt AILA",
+    "license": "Proprietary - DataArt Core IP",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-sdk-aila/skill_sdk_aila/skills/external-skill-integration"
+  },
+  {
+    "name": "skill-creator",
+    "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/skill-creator"
+  },
+  {
+    "name": "web-artifacts-builder",
+    "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/web-artifacts-builder"
+  },
+  {
+    "name": "pdf",
+    "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/pdf"
+  },
+  {
+    "name": "canvas-design",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/canvas-design"
+  },
+  {
+    "name": "slack-gif-creator",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/slack-gif-creator"
+  },
+  {
+    "name": "frontend-design",
+    "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/frontend-design"
+  },
+  {
+    "name": "theme-factory",
+    "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/theme-factory"
+  },
+  {
+    "name": "webapp-testing",
+    "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/webapp-testing"
+  },
+  {
+    "name": "mcp-builder",
+    "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/mcp-builder"
+  },
+  {
+    "name": "brand-guidelines",
+    "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/brand-guidelines"
+  },
+  {
+    "name": "doc-coauthoring",
+    "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/doc-coauthoring"
+  },
+  {
+    "name": "internal-comms",
+    "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/internal-comms"
+  },
+  {
+    "name": "xlsx",
+    "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path \u2014 even casually (like \"the xlsx in my downloads\") \u2014 and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/xlsx"
+  },
+  {
+    "name": "docx",
+    "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of \"Word doc\", \"word document\", \".docx\", or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a \"report\", \"memo\", \"letter\", \"template\", or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/docx"
+  },
+  {
+    "name": "pptx",
+    "description": "Use this skill any time a .pptx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/pptx"
+  },
+  {
+    "name": "algorithmic-art",
+    "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-sdk-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/external_repos/skills/skills/algorithmic-art"
+  },
+  {
+    "name": "aila-deployment-troubleshooting-aws",
+    "description": "Provides comprehensive AWS deployment troubleshooting and recovery capabilities for AILA Terraform/Terragrunt deployments. Diagnoses deployment failures including resource conflicts, orphaned resources, and state mismatches. Cleans up orphaned CloudFront distributions, S3 buckets, Lambda functions, API Gateway APIs, and AppSync APIs. Resolves Terraform state inconsistencies through import and refresh operations. Handles name conflicts and partial deployments. Recovers from failed Web UI and AI Domain deployments. Provides automated resource identification and cleanup workflows with safety confirmations.\n\nUse when experiencing deployment failures, resource conflicts, or state corruption. Triggers: \"deployment failed\", \"resource already exists\", \"orphaned resources\", \"CloudFront distribution conflict\", \"clean up failed deployment\", \"Terraform state mismatch\", \"deployment troubleshooting\", \"AWS resource cleanup\", \"stack deployment issues\".\n",
+    "category": "agent-deployment",
+    "tags": [
+      "aws-troubleshooting",
+      "terraform-recovery",
+      "deployment-cleanup",
+      "resource-management",
+      "state-management",
+      "cloudfront-cleanup",
+      "infrastructure-recovery"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "artifacts": [
+        "orphaned-resources-cleanup/WORKFLOW.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-deployment-troubleshooting-aws"
+  },
+  {
+    "name": "workshop-executor",
+    "description": "Facilitates AILA workshops by guiding users through hands-on exercises without doing the work for them.\nPrompts users to open workshop files, complete exercises, and verify understanding at checkpoints.\nProvides hints and clarification when users are stuck, but encourages learning by doing.\n\nUse when user asks to execute or start workshops.\nTriggers: \"execute workshop\", \"start workshop\", \"run workshop\", \"do the workshop\", \"walk me through workshop\".\n",
+    "category": "automation",
+    "tags": [
+      "workshops",
+      "training",
+      "onboarding",
+      "facilitation",
+      "education"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Apache-2.0",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/workshop-executor"
+  },
+  {
+    "name": "workshop-assistant",
+    "description": "Provides expertise to create and execute hands-on workshops with progress tracking.\nGuides creation of structured workshop materials and execution workflows.\n\nUse when creating workshops, onboarding materials, or training sessions.\nTriggers: \"create workshop\", \"design training\", \"build onboarding\".\n",
+    "category": "automation",
+    "tags": [
+      "workshop",
+      "training",
+      "onboarding",
+      "creation"
+    ],
+    "version": "2.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "artifacts": [
+        "aila-sdk-onboarding/README.md",
+        "aila-sdk-onboarding/WORKSHOP.md",
+        "aila-sdk-onboarding/META.yaml",
+        "kiro-onboarding/WORKSHOP.md",
+        "kiro-onboarding/META.yaml",
+        "skills-framework-onboarding/README.md",
+        "skills-framework-onboarding/WORKSHOP.md",
+        "skills-framework-onboarding/META.yaml",
+        "best-practices-management/WORKSHOP.md",
+        "best-practices-management/META.yaml",
+        "workshop-creation/WORKSHOP.md",
+        "workshop-creation/META.yaml",
+        "sa-agentic-onboarding/WORKSHOP.md",
+        "sa-agentic-onboarding/META.yaml",
+        "kiro-onboarding/materials/README.md",
+        "kiro-onboarding/materials/microlab-04-prompt-management.md",
+        "kiro-onboarding/materials/microlab-03-discovery.md",
+        "kiro-onboarding/materials/microlab-02-using-skills.md",
+        "kiro-onboarding/materials/microlab-06-sdlc-mini.md",
+        "kiro-onboarding/materials/microlab-01-first-steering.md",
+        "kiro-onboarding/materials/microlab-07-create-pir.md",
+        "kiro-onboarding/materials/microlab-05-bootstrap.md",
+        "skills-framework-onboarding/materials/README.md",
+        "skills-framework-onboarding/materials/collective-steering.md",
+        "skills-framework-onboarding/materials/anthropic-standard.md",
+        "skills-framework-onboarding/materials/context-engineering.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/workshop-assistant"
+  },
+  {
+    "name": "repo-documentation",
+    "description": "Automates comprehensive code documentation generation with AST-parsed metadata for AI agent understanding.\nGenerates complete package documentation with function signatures, class structures, docstrings, and dependencies.\nCreates redistributable documentation artifacts and establishes documentation standards for code generation.\nExtracts metadata from Python packages using AST parsing for hierarchical documentation structure.\nEnables AI agents to understand codebases through embedded metadata and steering documentation.\n\nUse when generating repository documentation, creating code metadata for AI agents, establishing documentation standards, or preparing redistributable documentation artifacts.\n\nTriggers: \"Generate documentation for this repository\", \"document this codebase\", \"create repo documentation\", \"generate code metadata\", \"extract package documentation\"\n",
+    "category": "sdlc-process",
+    "tags": [
+      "documentation",
+      "code-analysis",
+      "ast-parsing",
+      "metadata-extraction",
+      "ai-agent-integration",
+      "package-documentation",
+      "code-understanding"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/repo-documentation"
+  },
+  {
+    "name": "lambda-container-deployment",
+    "description": "Configure and deploy Python Lambda functions using container images instead of zip packages. Use when dependencies exceed Lambda layer limits (70MB) or require complex native compilation (pandas, numpy, scipy).\n\nCovers Dockerfile creation, Terraform/Terragrunt configuration, ECR integration, shared library handling, local testing, and deployment verification.\n\nTriggers: \"Lambda container deployment\", \"Lambda Docker image\", \"ECR Lambda setup\", \"Lambda zip too large\", \"Lambda pandas deployment\", \"container image Lambda Terraform\"\n",
+    "category": "platform",
+    "tags": [
+      "aws",
+      "lambda",
+      "docker",
+      "ecr",
+      "terraform",
+      "terragrunt",
+      "python",
+      "container"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/lambda-container-deployment"
+  },
+  {
+    "name": "use-case-library",
+    "description": "Manages DataArt use cases, case studies, and battle cards for sales and consulting teams.\nCreates use cases from documents or verbal descriptions with guided extraction workflows.\nGenerates case studies with client stories, challenges, solutions, and quantified results.\nProduces battle cards for sales enablement with competitive positioning and objection handling.\nSearches and filters library by industry, cloud platform, challenge type, or keywords.\nMaintains structured artifact storage with metadata for easy discovery and organization.\nConverts content between formats using office-documents integration for presentations.\nTracks completeness and guides users through information gathering for comprehensive documentation.\n\nUse when creating sales materials, documenting client success stories, or building competitive assets.\nTriggers: \"create use case\", \"find case studies\", \"search use cases\", \"battle card\", \"case study for client\"\n",
+    "category": "project-knowledge",
+    "tags": [
+      "sales-enablement",
+      "case-studies",
+      "use-cases",
+      "battle-cards",
+      "client-stories",
+      "competitive-intelligence"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "use-case-template.md",
+        "battle-card-template.md",
+        "case-study-template.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/use-case-library"
+  },
+  {
+    "name": "jira-knowledge-extraction",
+    "description": "Extracts and syncs Jira project data into skill artifact format. Two workflows - knowledge extraction (static snapshot) and tracking extraction (time-series analytics).",
+    "category": "automation",
+    "tags": [
+      "jira",
+      "knowledge",
+      "extraction",
+      "tracking",
+      "analytics"
+    ],
+    "version": "1.1.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "scripts": [
+        "extract-jira-tracking.py",
+        "extract-jira-knowledge.py"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/jira-knowledge-extraction"
+  },
+  {
+    "name": "sdlc-pdd",
+    "description": "Complete 13-step Prompt-Driven Design (PDD) lifecycle that transforms rough ideas into implemented, documented solutions. Orchestrates requirements gathering, research, design, implementation planning, code task generation, TDD-based implementation, and validation through structured iterative workflow with human-in-the-loop checkpoints. Supports technical and business dimensions with pluggable dimensional skills. Manages orchestrator-step agent delegation pattern. Supersedes generic-sdlc (steps 1-9), business-sdlc (steps 1-10), and sdlc (wrapper) with unified comprehensive coverage of all 13 steps including implementation task creation, code execution, and post-implementation documentation.\n\nUse when running full software development lifecycle, transforming ideas into designs and code, orchestrating multi-phase project workflows, or managing structured development processes with implementation.\n\nTriggers: \"Start PDD process\", \"SDLC PDD\", \"Run PDD for project\", \"Start development lifecycle\", \"PDD process for\", \"Requirements to implementation\", \"Design and implement\".\n",
+    "category": "sdlc-process",
+    "tags": [
+      "sdlc",
+      "prompt-driven-design",
+      "pdd",
+      "requirements",
+      "design",
+      "implementation",
+      "tdd",
+      "code-generation",
+      "orchestration",
+      "dimensional-skills",
+      "project-lifecycle"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "dimensional-skills.md",
+        "process-overview.md",
+        "step-09-planning-checkpoint.md",
+        "step-10-generate-deliverables.md",
+        "step-11-create-implementation-tasks.md",
+        "orchestrator-prompt.md",
+        "step-08-develop-implementation-plan.md",
+        "orchestrator-sop.md",
+        "step-01-create-project-structure.md",
+        "step-12-execute-implementation.md",
+        "step-agent-prompt.md",
+        "step-05-research-checkpoint.md",
+        "step-02-initial-process-planning.md",
+        "step-06-create-detailed-design.md",
+        "step-13-validate-and-document.md",
+        "step-04-research-relevant-information.md",
+        "step-07-design-checkpoint.md",
+        "step-03-requirements-clarification.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/sdlc-pdd"
+  },
+  {
+    "name": "steering-assessment",
+    "description": "Enhance project static knowledge by discovering and configuring relevant skills and resources in .kiro/steering/. \nDiscovers skills/resources matching user needs and configures Kiro steering for specific domains like AWS, documentation, testing, or infrastructure.\nMakes skills/resources available \"by heart\" without full discovery and enhances static knowledge for offline use.\nConfigures steering with metadata-only or full content modes based on usage frequency.\nValidates steering configuration and checks for updates to synced items.\nUse when needing specific skills/resources in project steering, enhancing domain knowledge, or making capabilities available offline.\nTriggers: \"Add AWS skills to steering\", \"Configure steering for documentation\", \"I need testing resources in steering\", \"Make infrastructure skills available locally\", \"I need to improve steering\", \"Enhance my project steering\".\n",
+    "category": "project-knowledge",
+    "tags": [
+      "steering",
+      "configuration",
+      "project-knowledge",
+      "skill-discovery",
+      "offline-access",
+      "metadata-management"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "steering-best-practices.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/steering-assessment"
+  },
+  {
+    "name": "zephyr-test-generation",
+    "description": "Generate Zephyr Scale manual test cases from Jira user stories using a four-phase workflow (Research \u2192 Generate \u2192 Validate \u2192 Push) with six intelligence sources. Calibrated against 2,216 real test cases. Validated against project QA standards extracted from Confluence.",
+    "category": "testing",
+    "tags": [
+      "zephyr",
+      "testing",
+      "test-cases",
+      "qa",
+      "jira",
+      "manual-testing",
+      "groups",
+      "fit",
+      "goway"
+    ],
+    "version": "2.2.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml",
+        "SKILL_SPEC.docx",
+        "SKILL_SPEC.md"
+      ],
+      "scripts": [
+        "zephyr_schema.py"
+      ],
+      "references": [
+        "best_practices.md",
+        "precondition_templates.md",
+        "qa-methodology.md",
+        "subagent_context.md",
+        "sop.v1.deprecated.md",
+        "benchmark_report.md"
+      ],
+      "other": [
+        "_internal"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/zephyr-test-generation"
+  },
+  {
+    "name": "aila-agentic-ui-operations",
+    "description": "Automates configuration, deployment, and validation of web UI stacks in AILA agentic repositories. \nConfigures CloudFront distributions, React/Vite frontend applications, Lambda functions for backend APIs, \nand Streamlit applications. Sets up Terragrunt infrastructure configurations with VPC, security groups, \nand API Gateway integration. Validates web UI stack configurations before deployment to catch common issues. \nCreates custom Terraform extensions for additional AWS services like Cognito Identity Pools. Manages \nfrontend environment variables, sidebar navigation configuration, and WebSocket API setup.\n\nUse when configuring web interfaces for agentic applications, setting up CloudFront distributions, \ndeploying React frontends with Lambda backends, or validating UI stack configurations.\n\nTriggers: \"configure web UI\", \"validate web UI stack\", \"explain web UI structure\", \"setup CloudFront\", \n\"deploy frontend application\", \"configure Lambda functions\", \"setup Streamlit apps\", \"create UI extensions\"\n",
+    "category": "web-ui",
+    "tags": [
+      "web-ui",
+      "cloudfront",
+      "terragrunt",
+      "lambda-functions",
+      "streamlit",
+      "react-frontend",
+      "ui-deployment",
+      "api-gateway"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "web-ui-configuration-guide.md",
+        "web-ui-validation-guide.md",
+        "web-ui-extensions-guide.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-agentic-ui-operations"
+  },
+  {
+    "name": "aila-terraform-modules",
+    "description": "Provides reference documentation and usage guidance for AILA standard Terraform modules.\nDelivers module documentation, configuration examples, and integration patterns for infrastructure components.\nExplains module capabilities including VPC setup, networking configuration, and multi-AZ deployments.\nOffers module selection guidance, version management practices, and Terragrunt integration patterns.\nDocuments module standards, best practices, and troubleshooting approaches for infrastructure deployments.\n\nUse when working with AILA Terraform modules, configuring infrastructure components, or implementing standardized patterns.\nTriggers: \"terraform modules\", \"VPC module\", \"infrastructure modules\", \"module documentation\", \"terragrunt modules\", \"standard modules\".\n",
+    "category": "automation",
+    "tags": [
+      "terraform",
+      "infrastructure",
+      "modules",
+      "vpc",
+      "networking",
+      "terragrunt",
+      "aws",
+      "automation"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "vpc-module.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-terraform-modules"
+  },
+  {
+    "name": "skill-management-aila",
+    "description": "Guide for discovering, searching, and managing AILA skills using catalog tools. \nLists all available skills, searches by category/tags, views complete skill definitions,\naccesses skill resources (scripts/references/assets), creates new skills with auto-generated metadata,\nmigrates existing skills to AILA format, validates skills against standards, and manages skill libraries.\n\nUse when managing AILA skill catalog, discovering available capabilities, creating new skills,\nor migrating legacy skills. Handles both project-specific and shared library skills.\n\nTriggers: \"list skills\", \"find skills\", \"create skill\", \"skill management\", \"validate skill\", \n\"migrate skill\", \"skill catalog\", \"what skills available\".\n",
+    "category": "agent-development",
+    "tags": [
+      "skill-catalog",
+      "skill-discovery",
+      "skill-creation",
+      "skill-validation",
+      "skill-migration",
+      "catalog-tools",
+      "aila-skills"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "migration-guide.md",
+        "acceptance-criteria-guide.md",
+        "testing-guide.md",
+        "anthropic-skills-guide.md",
+        "validation-rules.md",
+        "metadata-schema.md",
+        "structure-guide.md"
+      ],
+      "artifacts": [
+        "anthropic-skills-spec/specification.md",
+        "anthropic-skills-spec/integrate-skills.md",
+        "anthropic-skills-spec/what-are-skills.md",
+        "anthropic-skills-spec/skills-ref-sdk.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/skill-management-aila"
+  },
+  {
+    "name": "presales-assessment",
+    "description": "Comprehensive presales lead qualification and meeting preparation system that guides sales teams through systematic lead assessment using BANT framework (Budget, Authority, Need, Timeline). Provides lead qualification scoring, contact research and validation, capability matching, assessment reporting, and first-meeting preparation materials.\n\nKey capabilities: Lead information gathering and clarification, LinkedIn contact research and authority assessment, DataArt capability matching against client needs, BANT framework qualification scoring, comprehensive assessment report generation, first-call deck creation, meeting brief preparation, AILA rules of engagement validation, qualification red flag identification, and scope assessment.\n\nUse when conducting presales activities, qualifying new opportunities, preparing for client meetings, or validating sales leads. Triggers: \"assess this lead\", \"qualify opportunity\", \"prepare first-call deck\", \"BANT qualification\", \"research contact\", \"lead assessment\", \"meeting preparation\", \"presales evaluation\", \"opportunity qualification\", \"client research\".\n",
+    "category": "sdlc-process",
+    "tags": [
+      "presales",
+      "lead-qualification",
+      "bant-framework",
+      "sales-process",
+      "meeting-preparation",
+      "client-research",
+      "opportunity-assessment"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "artifacts": [
+        "aila-rules-of-engagement.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/presales-assessment"
+  },
+  {
+    "name": "agentic-repo-operations",
+    "description": "Automates creation, validation, and configuration of AILA agentic repositories following standard architecture patterns. Creates new agentic repositories with proper folder structure, Terragrunt hierarchy, and CI/CD configuration. Validates existing repository structure against AILA standards including library organization, config folders, and Terragrunt setup. Generates GitLab CI/CD pipeline configurations with proper stack categorization and build requirements. Explains repository architecture patterns and troubleshoots structural issues. Supports AWS Bedrock AgentCore deployments with agents, knowledge bases, and web UIs.\n\nUse when setting up new agentic projects, validating repository compliance, or configuring deployment pipelines. Triggers: \"create agentic repository\", \"validate repo structure\", \"generate CI/CD configuration\", \"agentic repo operations\", \"repository architecture\", \"terragrunt hierarchy validation\".\n",
+    "category": "automation",
+    "tags": [
+      "agentic-repositories",
+      "repository-automation",
+      "terragrunt-hierarchy",
+      "cicd-configuration",
+      "aws-bedrock",
+      "repository-validation"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "repo-structure-pattern.md",
+        "terragrunt-hierarchy-pattern.md",
+        "cicd-configuration-pattern.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/agentic-repo-operations"
+  },
+  {
+    "name": "best-practices",
+    "description": "Provides expertise to create and edit best practice documents for development, automation, and processes.\nGuides creation of standardized best practice documents with examples, rationale, and guidelines.\n\nUse when creating standards documentation or establishing team guidelines.\nTriggers: \"create best practice for\", \"document standard for\", \"write best practice\".\n",
+    "category": "sdlc-process",
+    "tags": [
+      "best-practices",
+      "documentation",
+      "standards",
+      "creation"
+    ],
+    "version": "2.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "artifacts": [
+        "prompt-management/BEST_PRACTICE.md",
+        "prompt-management/META.yaml",
+        "reuse-over-build/BEST_PRACTICE.md",
+        "reuse-over-build/META.yaml",
+        "ai-agent-template-first-configuration/BEST_PRACTICE.md",
+        "ai-agent-template-first-configuration/META.yaml",
+        "skill-first-problem-solving/BEST_PRACTICE.md",
+        "skill-first-problem-solving/META.yaml",
+        "kiss-principle/BEST_PRACTICE.md",
+        "kiss-principle/META.yaml",
+        "kiro-steering-management/BEST_PRACTICE.md",
+        "kiro-steering-management/META.yaml",
+        "code-comments/BEST_PRACTICE.md",
+        "code-comments/META.yaml",
+        "repository-documentation-structure/BEST_PRACTICE.md",
+        "repository-documentation-structure/META.yaml",
+        "relative-symlinks/BEST_PRACTICE.md",
+        "relative-symlinks/META.yaml",
+        "package-structure/BEST_PRACTICE.md",
+        "package-structure/META.yaml",
+        "automation-first/BEST_PRACTICE.md",
+        "automation-first/META.yaml",
+        "skills-vs-agents-vs-prompts/BEST_PRACTICE.md",
+        "skills-vs-agents-vs-prompts/META.yaml",
+        "bootstrap-first/BEST_PRACTICE.md",
+        "bootstrap-first/META.yaml",
+        "ai-agent-code-change-process/BEST_PRACTICE.md",
+        "ai-agent-code-change-process/META.yaml",
+        "aila-git-workflow/BEST_PRACTICE.md",
+        "aila-git-workflow/META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/best-practices"
+  },
+  {
+    "name": "aila-agent-deployment-configuration",
+    "description": "Configure and deploy AILA agents with complete infrastructure setup including JSON configurations, authentication, MCP integration, and deployment validation. Creates agent deployment configurations with Docker templates, runtime settings, IAM permissions, and environment variables. Sets up OAuth and API key authentication for secure agent access. Configures MCP (Model Context Protocol) servers and clients for tool integration. Manages inference profiles for cross-region model routing. Validates deployment configurations and troubleshoots common issues. Integrates with catalog tools for skills, prompts, and knowledge access. Handles Jira/Confluence MCP deployments and custom MCP server creation.\n\nUse when configuring agent deployments, setting up authentication, creating MCP servers, validating configurations, or troubleshooting deployment issues. Triggers: \"configure agent deployment\", \"set up authentication\", \"create MCP server\", \"validate agent config\", \"deploy agent\", \"configure OAuth\", \"set up API keys\", \"inference profile\", \"MCP integration\", \"Jira MCP deployment\".\n",
+    "category": "agent-deployment",
+    "tags": [
+      "agent-deployment",
+      "authentication",
+      "mcp-integration",
+      "configuration-management",
+      "inference-profiles",
+      "oauth-setup",
+      "deployment-validation",
+      "jira-integration",
+      "terragrunt",
+      "aws-deployment"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-agent-deployment-configuration"
+  },
+  {
+    "name": "workspace-management",
+    "description": "Manage Kiro workspaces end-to-end: define workspace in Python, generate local dev structure, convert to AILA catalog format, and publish to cloud provider. Covers the full lifecycle from KiroWorkspace definition through catalog generation and AWS publishing.\n\nUse when creating new Kiro workspaces, adding agents to workspaces, generating catalog output, or publishing workspace resources to AILA catalog.\n\nTriggers: \"Create workspace\", \"Generate catalog\", \"Publish workspace\", \"Add agent to workspace\", \"Workspace management\".\n",
+    "category": "workspace-management",
+    "tags": [
+      "workspace",
+      "kiro",
+      "catalog",
+      "agents",
+      "publishing",
+      "generation",
+      "aila"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/workspace-management"
+  },
+  {
+    "name": "aila-agent-development-part2",
+    "description": "Advanced AILA agent development capabilities for SDK migration, requirements management, and local testing workflows. \nMigrates reusable code from project libraries to external SDKs with proper dependency management. \nValidates library structures and resolves import conflicts during migration processes.\nManages Python dependencies using dual requirements patterns for cloud deployment and local development.\nSets up local development environments with virtual environments and dependency installation.\nGenerates comprehensive test files for local agent testing with automatic environment variable discovery.\nProvides library structure validation and dependency conflict resolution.\n\nUse when migrating libraries to external SDKs, setting up local testing environments, managing agent dependencies, or validating agent structures locally.\nTriggers: \"migrate library to external SDK\", \"test agent locally\", \"manage requirements\", \"validate library structure\", \"install dependencies locally\", \"create test file for agent\", \"set up dual requirements\"\n",
+    "category": "agent-development",
+    "tags": [
+      "sdk-migration",
+      "requirements-management",
+      "local-testing",
+      "agent-validation",
+      "dependency-management",
+      "library-migration",
+      "development-environment"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-agent-development-part2"
+  },
+  {
+    "name": "template-creation-validation",
+    "description": "Create and validate code templates from real configuration files. Templatizes values with placeholders, auto-detects parameters, and validates template completeness. Use when adding templates to skills, creating reusable configs, or validating existing templates. Triggers include create template, templatize config, validate template, add template to skill.",
+    "category": "automation",
+    "tags": [
+      "templates",
+      "code-generation",
+      "automation",
+      "validation"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Apache-2.0",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/template-creation-validation"
+  },
+  {
+    "name": "post-implementation-review",
+    "description": "Provides expertise to create comprehensive PIR documents from work sessions.\nAnalyzes objectives, actions, issues, and automation opportunities.\nGuides creation of concise, actionable post-implementation reviews.\n\nUse after completing significant work or project phases.\nTriggers: \"create PIR\", \"post-implementation review\", \"document work session\".\n",
+    "category": "sdlc-process",
+    "tags": [
+      "pir",
+      "documentation",
+      "lessons-learned",
+      "automation"
+    ],
+    "version": "3.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "article-style-guide.md",
+        "example-article-pir.md"
+      ],
+      "artifacts": [
+        "2026-02-16-skill-migration-052-053/PIR.md",
+        "2026-02-16-skill-migration-052-053/META.yaml",
+        "2026-02-16-use-case-library-skill-creation/PIR.md",
+        "2026-02-16-use-case-library-skill-creation/META.yaml",
+        "2026-02-24-awsp-88-infrastructure-recovery/PIR.md",
+        "2026-02-24-awsp-88-infrastructure-recovery/META.yaml",
+        "2026-02-16-presales-assessment-skill-beta/PIR.md",
+        "2026-02-16-presales-assessment-skill-beta/META.yaml",
+        "2026-02-22-personal-assistant-automation/PIR.md",
+        "2026-02-22-personal-assistant-automation/META.yaml",
+        "2026-02-15-steering-mcp-implementation/PIR.md",
+        "2026-02-15-steering-mcp-implementation/META.yaml",
+        "2026-02-14-demo-org-admin-skills-migration/PIR.md",
+        "2026-02-14-demo-org-admin-skills-migration/META.yaml",
+        "2026-02-28-mcp-flow-documentation/PIR.md",
+        "2026-02-28-mcp-flow-documentation/META.yaml",
+        "2026-02-22-expert-agents-discovery/PIR.md",
+        "2026-02-22-expert-agents-discovery/META.yaml",
+        "2026-02-27-knowledge-library-integration/PIR.md",
+        "2026-02-27-knowledge-library-integration/META.yaml",
+        "2026-02-16-office-documents-skill-creation/PIR.md",
+        "2026-02-16-office-documents-skill-creation/META.yaml",
+        "2026-02-22-personal-assistant-birth/PIR.md",
+        "2026-02-22-personal-assistant-birth/META.yaml",
+        "2026-02-22-framework-data-pipeline-documentation/PIR.md",
+        "2026-02-22-framework-data-pipeline-documentation/META.yaml",
+        "2026-02-23-aila-skills-management-expert-agent/PIR.md",
+        "2026-02-23-aila-skills-management-expert-agent/META.yaml",
+        "2026-02-22-skill-discovery-debugging/PIR.md",
+        "2026-02-22-skill-discovery-debugging/META.yaml",
+        "2026-02-25-dataset-security-remediation/PIR.md",
+        "2026-02-25-dataset-security-remediation/META.yaml",
+        "2026-02-15-mcp-resource-tools-testing/PIR.md",
+        "2026-02-15-mcp-resource-tools-testing/META.yaml",
+        "2026-02-22-framework-stage-glue-documentation/PIR.md",
+        "2026-02-22-framework-stage-glue-documentation/META.yaml",
+        "2026-02-14-skills-standardization/PIR.md",
+        "2026-02-14-skills-standardization/META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/post-implementation-review"
+  },
+  {
+    "name": "aila-catalog-sdk",
+    "description": "AILA Catalog SDK usage guide for AI agents. Covers skill discovery, resource management, catalog operations, and publishing. Explains all aila_* API functions, RESOURCE_CONFIG types, and provider architecture.\n\nUse when discovering skills, creating or saving skills, managing catalog resources (knowledge, agents, prompts, workshops, PIRs), listing resource types, or publishing workspace artifacts.\n\nTriggers: \"List skills\", \"Create skill\", \"Save resource\", \"Catalog operations\", \"Resource types\", \"SDK usage\", \"Discover providers\", \"List resources\", \"Get resource\".\n",
+    "category": "sdk-operations",
+    "tags": [
+      "sdk",
+      "catalog",
+      "skills",
+      "resources",
+      "discovery",
+      "publishing",
+      "aila",
+      "api"
+    ],
+    "version": "1.1.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-catalog-sdk"
+  },
+  {
+    "name": "workspace-prompts",
+    "description": "Anthropic skill: workspace-prompts",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/workspace-prompts"
+  },
+  {
+    "name": "hello-world",
+    "description": "Basic validation and testing skill that provides simple greeting functionality and skill loading confirmation.\nDisplays welcome messages and verifies skill is properly loaded in the system.\nUse when testing skill functionality, validating system setup, or demonstrating basic skill execution.\nTriggers: \"hello world\", \"test skill\", \"validate system\", \"show greeting\", \"skill test\".\n",
+    "category": "automation",
+    "tags": [
+      "testing",
+      "validation",
+      "greeting",
+      "basic-functionality",
+      "system-check"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/hello-world"
+  },
+  {
+    "name": "business-sdlc",
+    "description": "Business SDLC orchestrator that manages the complete 10-step Prompt-Driven Design (PDD) process with business dimension focus. Transforms rough project ideas into detailed designs with implementation plans through systematic workflow management. Executes sequential SDLC phases including setup, requirements gathering, research, design, and deliverable generation. Automatically loads business-specific skills for requirements clarification, detailed design, implementation planning, and document generation. Manages workflow transitions, checkpoints, and iteration control throughout the project lifecycle. Provides structured project artifact creation with business stakeholder focus and ROI considerations.\n\nUse when managing business projects through structured development lifecycle, orchestrating multi-phase project workflows, or transforming business ideas into implementation-ready plans. Triggers: \"Run business SDLC for project\", \"Execute step [number] for project\", \"Go to design checkpoint\", \"Iterate requirements phase\".\n",
+    "category": "sdlc-process",
+    "tags": [
+      "business-sdlc",
+      "workflow-orchestration",
+      "project-management",
+      "pdd-process",
+      "business-requirements",
+      "implementation-planning",
+      "checkpoint-management",
+      "deliverable-generation"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "step-07-design-iteration-checkpoint.md",
+        "process-overview.md",
+        "step-05-research-iteration-checkpoint.md",
+        "step-08-develop-implementation-plan.md",
+        "step-01-create-project-structure.md",
+        "step-09-planning-iteration-checkpoint.md",
+        "step-02-initial-process-planning.md",
+        "step-06-create-detailed-design.md",
+        "step-04-research-relevant-information.md",
+        "step-03-requirements-clarification.md",
+        "step-10-generate-deliverable-documents.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/business-sdlc"
+  },
+  {
+    "name": "office-documents",
+    "description": "Local desktop skill for reading, converting, and generating office documents including Excel, Word, PowerPoint, PDF, and Markdown files. Converts between document formats (markdown to PDF, Excel to CSV, Word to markdown). Generates new documents programmatically from data including Excel spreadsheets, Word documents, PowerPoint presentations, and PDFs. Creates DataArt-branded presentations using corporate templates with proper styling and layouts. Extracts text and data from existing documents for processing. Processes multiple document formats in batch operations for efficient workflows.\n\nUse when working with office documents, converting file formats, generating reports, or creating presentations. Triggers: \"convert document\", \"generate Excel report\", \"create presentation\", \"office document conversion\", \"DataArt presentation\", \"PDF generation\", \"document processing\".\n",
+    "category": "automation",
+    "tags": [
+      "document-conversion",
+      "office-automation",
+      "pdf-generation",
+      "excel-processing",
+      "powerpoint-creation",
+      "dataart-branding",
+      "file-formats"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "scripts": [
+        "install-packages.sh"
+      ],
+      "artifacts": [
+        "setup-test.md",
+        "dataart-presentations.md",
+        "document-generation.md",
+        "document-conversion.md"
+      ],
+      "assets": [
+        "DataArtTemplateLatest.pptx"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/office-documents"
+  },
+  {
+    "name": "release-notes-creation",
+    "description": "Create release notes from PIRs for technical teams and business stakeholders. Generates two documents - technical for SAs/engineers and business for sales/BusDev. Triggers - create release notes, generate release notes, release letter.",
+    "category": "sdlc-process",
+    "tags": [
+      "release-notes",
+      "pir",
+      "documentation",
+      "communication"
+    ],
+    "version": "1.0.0",
+    "author": null,
+    "license": "Apache-2.0",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/release-notes-creation"
+  },
+  {
+    "name": "aila-agent-development-part1",
+    "description": "Creates AI agents for AWS Bedrock AgentCore with complete end-to-end development workflow.\nGenerates agent libraries with proper structure, dependencies, and Python modules.\nCreates custom tools with @tool decorators and proper error handling for agent use.\nValidates agent configurations before deployment to catch common issues.\nBootstraps new libraries with best practices and dual requirements patterns.\nHandles declarative agent creation using JSON configuration files.\nIntegrates external SDK references and validates library structure compliance.\n\nUse when creating new agents, building agent libraries, developing custom tools, or validating agent configurations.\nTriggers: \"Create new agent\", \"Create agent library\", \"Create tool for\", \"validate agent\", \"bootstrap library\", \"agent development\", \"custom tool creation\".\n",
+    "category": "agent-development",
+    "tags": [
+      "ai-agents",
+      "aws-bedrock",
+      "agentcore",
+      "python-development",
+      "tool-creation",
+      "library-structure",
+      "agent-validation"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-agent-development-part1"
+  },
+  {
+    "name": "jira-git-tracking-extraction",
+    "description": "Anthropic skill: jira-git-tracking-extraction",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/jira-git-tracking-extraction"
+  },
+  {
+    "name": "ecr-docker-terragrunt-troubleshooting",
+    "description": "Troubleshoot Docker images not being built or pushed to ECR by Terragrunt deployments. Covers null_resource triggers, image digest mismatches, pipeline caching, and Lambda image staleness.\n\nUse when Lambda not using new code after deployment or ECR image seems stale.\n\nTriggers: \"ECR image not updating\", \"Docker build not triggered\", \"Lambda old image\", \"Terragrunt Docker troubleshooting\", \"null_resource not rebuilding\", \"image digest mismatch\", \"pipeline cache stale image\"\n",
+    "category": "platform",
+    "tags": [
+      "aws",
+      "ecr",
+      "docker",
+      "terragrunt",
+      "terraform",
+      "lambda",
+      "troubleshooting",
+      "pipeline"
+    ],
+    "version": "1.1.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/ecr-docker-terragrunt-troubleshooting"
+  },
+  {
+    "name": "aila-agent-deployment",
+    "description": "Deploy and manage agent infrastructure on AWS Bedrock AgentCore. Creates Terragrunt stacks for agent deployment with proper configuration, extensions, and dependencies. Verifies agent deployments by checking ECR images, AgentCore runtimes, and version consistency. Monitors deployment status and troubleshoots deployment issues through log analysis. Manages agent lifecycle configurations and deployment methods. Configures Docker builds with git dependencies and private repository access.\n\nUse when deploying agents to AWS, setting up agent infrastructure, verifying deployment success, or troubleshooting deployment failures. \n\nTriggers: \"create agent stack\", \"deploy agent infrastructure\", \"verify agent deployment\", \"check ECR images\", \"agent deployment status\", \"troubleshoot agent deployment\", \"configure agent stack\", \"check agent runtime\"\n",
+    "category": "agent-deployment",
+    "tags": [
+      "aws-bedrock",
+      "agent-deployment",
+      "terragrunt",
+      "ecr-images",
+      "agentcore",
+      "infrastructure-deployment",
+      "deployment-verification",
+      "docker-containers"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "verification-guide.md",
+        "dockerfile-git-dependencies.md",
+        "terragrunt-stack-guide.md",
+        "deployment-methods.md",
+        "lifecycle-configuration.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-agent-deployment"
+  },
+  {
+    "name": "aila-fastmcp-cloud-deployment",
+    "description": "Deploy ANY FastMCP-based MCP server from local stdio to AWS AgentCore cloud with HTTP transport. \nHandles complete end-to-end deployment workflow including code assessment, transport configuration, \nDocker packaging, agent configuration, consumer setup, deployment execution, and verification.\n\nSupports two deployment patterns: in-repo MCP servers (copy files approach) and external package \nMCP servers (git dependency approach). Automatically configures universal transport settings, \nvalidates package data for skill loading, creates appropriate Docker images, generates agent \nconfigurations, sets up consumer agents with MCP_SERVERS environment variables, and verifies \nsuccessful deployment.\n\nProvides MicroVM lifecycle management understanding, image caching behavior, deployment timing \noptimization, and comprehensive troubleshooting guidance. Handles VPC configuration, security \ngroups, authentication, and CI/CD pipeline integration.\n\nUse when deploying FastMCP servers to cloud, migrating local MCP to HTTP transport, setting up \nmulti-agent MCP access, or troubleshooting MCP deployment issues.\n\nTriggers: \"deploy FastMCP server\", \"deploy MCP server to cloud\", \"FastMCP cloud deployment\", \n\"MCP server HTTP transport\", \"deploy AILA Skills MCP\", \"MCP server deployment workflow\"\n",
+    "category": "agent-deployment",
+    "tags": [
+      "fastmcp",
+      "mcp-server",
+      "cloud-deployment",
+      "aws-agentcore",
+      "http-transport",
+      "docker-packaging",
+      "agent-configuration"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "image-vs-runtime.md",
+        "image-caching.md",
+        "deployment-marker.md",
+        "package-data-validation.md",
+        "deployment-troubleshooting.md",
+        "lifecycle-configuration.md",
+        "e2e-testing.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-fastmcp-cloud-deployment"
+  },
+  {
+    "name": "aila-ai-domain-operations",
+    "description": "Automates configuration and deployment of AILA AI Domain infrastructure on AWS including VPC networking setup, Streamlit web UI deployment, Cognito authentication integration, and custom domain configuration with HTTPS. Provides operational workflows for creating Terragrunt configurations, deploying AI Domain stacks, setting up custom domains with Route53, managing ACM certificates, and handling cross-account hosted zone scenarios. Supports multiple deployment scenarios from minimal development setups to full production environments with VPC isolation and web interfaces.\n\nUse when deploying AI infrastructure, setting up Streamlit applications, configuring custom domains, or managing AILA domain deployments. Triggers: \"Configure AI domain infrastructure\", \"Set up custom domain for Streamlit\", \"Deploy AI domain stack\", \"Configure VPC networking\", \"Enable Cognito authentication\", \"Set up HTTPS domain\".\n",
+    "category": "ai-domain",
+    "tags": [
+      "ai-domain",
+      "aws-infrastructure",
+      "streamlit",
+      "cognito-auth",
+      "custom-domains",
+      "vpc-networking",
+      "terragrunt",
+      "https-setup"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "custom-domain-setup-guide.md",
+        "ai-domain-configuration-guide.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-ai-domain-operations"
+  },
+  {
+    "name": "gitlab-runner-operations",
+    "description": "Manages GitLab runner infrastructure including installation, configuration, registration, maintenance, and troubleshooting for CI/CD pipelines. Handles runner setup on AWS EC2 instances (ARM64/x86_64), registration with GitLab Cloud or self-hosted using new token-based authentication (GitLab 18.x+), Docker executor configuration with privileged mode, and runner tag management. Provides automatic Docker cleanup and disk space management to prevent build failures from storage exhaustion. Configures ARM64-specific compiler toolchains and multi-platform builds for AWS Graviton instances. Performs comprehensive troubleshooting including disk space issues, connectivity problems, registration failures, and runner health monitoring. Manages security group configuration, SSH access setup, and network connectivity verification.\n\nUse when setting up new GitLab runners, experiencing disk space issues during CI/CD builds, configuring automatic maintenance for runners, troubleshooting runner connectivity or performance issues, managing runner infrastructure on AWS, or registering runners with modern GitLab versions.\n\nTriggers: \"setup gitlab runner\", \"gitlab runner disk space\", \"docker cleanup on runner\", \"runner out of space\", \"configure gitlab runner\", \"gitlab runner maintenance\", \"troubleshoot runner\", \"runner disk full\", \"register gitlab runner\", \"runner registration\", \"gitlab runner installation\", \"runner connectivity issues\"\n",
+    "category": "sdlc-process",
+    "tags": [
+      "gitlab",
+      "ci-cd",
+      "docker",
+      "aws-ec2",
+      "infrastructure-management",
+      "devops-automation",
+      "runner-maintenance",
+      "disk-space-management",
+      "arm64-support"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/gitlab-runner-operations"
+  },
+  {
+    "name": "dplc-aila",
+    "description": "Complete SDLC workflow for AILA data lake data product development from requirements to deployment.\nProvides end-to-end data product development using AILA framework with integrated library management.\nEnables AILA library discovery and function integration into data pipelines.\nGuides Iceberg table configuration and data quality validation setup.\nSupports Terragrunt infrastructure provisioning for AILA data products.\nImplements AILA-specific naming conventions and pipeline structures.\nManages data transformation workflows with reusable library components.\n\nUse when developing AILA data products, building data lake pipelines, implementing AILA transformations, \nsetting up data product infrastructure, managing AILA libraries, configuring Iceberg tables, \nvalidating data quality rules, or following AILA development workflows.\n\nTriggers: \"AILA data product\", \"data lake pipeline\", \"AILA development\", \"data product workflow\", \n\"AILA library management\", \"Iceberg configuration\", \"AILA SDLC\", \"data transformation pipeline\"\n",
+    "category": "data-lake",
+    "tags": [
+      "aila-framework",
+      "data-lake",
+      "sdlc-workflow",
+      "iceberg-tables",
+      "pipeline-development",
+      "library-management",
+      "data-quality",
+      "terragrunt-infrastructure"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "pipeline-requirements-analysis.md",
+        "library-management-workflow.md",
+        "iceberg-configuration.md",
+        "pipeline-validation.md",
+        "data-quality-best-practices.md",
+        "technical-planning.md",
+        "technical-design.md",
+        "documentation-generator.md",
+        "data-quality-rules-reference.md",
+        "add-library-function.md",
+        "git-workflow.md",
+        "business-design.md",
+        "naming-conventions.md",
+        "business-deliverables.md",
+        "business-planning.md",
+        "pipeline-structure.md",
+        "library-reference.md",
+        "terragrunt-structure.md",
+        "terragrunt-stack-creation.md",
+        "technical-deliverables.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/dplc-aila"
+  },
+  {
+    "name": "aila-knowledge-extraction",
+    "description": "Extracts, structures, and packages knowledge from any source (web, files, documents) for zero-token agent access. Creates discoverable knowledge artifacts with clean, agent-friendly documentation. Builds reusable knowledge libraries from URLs, PDFs, markdown files, and other content sources. Packages structured information for offline access and distribution across projects. Enables agents to access frequently-used information without token costs through the artifact system.\n\nUse when building knowledge repositories, creating offline documentation, packaging information for agent consumption, or converting unstructured content into structured knowledge bases.\n\nTriggers: \"extract knowledge from\", \"create knowledge package\", \"build knowledge library\", \"package documentation\", \"structure information from\", \"convert to knowledge artifact\"\n",
+    "category": "agent-development",
+    "tags": [
+      "knowledge-extraction",
+      "artifact-creation",
+      "documentation",
+      "zero-token-access",
+      "content-structuring",
+      "knowledge-management"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "knowledge-extraction-sop.md"
+      ],
+      "artifacts": [
+        "aila-skill-development-guide/KNOWLEDGE.md",
+        "aila-skill-development-guide/META.yaml",
+        "aila-experts-network-architecture/KNOWLEDGE.md",
+        "aila-experts-network-architecture/META.yaml",
+        "aila-experts-network-integration/KNOWLEDGE.md",
+        "aila-experts-network-integration/META.yaml",
+        "aila-experts-network-development/KNOWLEDGE.md",
+        "aila-experts-network-development/META.yaml",
+        "kiro-cli-expert-collaboration/KNOWLEDGE.md",
+        "kiro-cli-expert-collaboration/META.yaml"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/aila-knowledge-extration"
+  },
+  {
+    "name": "knowledge-mining",
+    "description": "Extracts structured knowledge and actionable information from unstructured sources including documents, code, and conversations. Identifies known issues, automation opportunities, actionable tasks, participants and roles, TODO items, and open questions from various sources. Applies specialized mining strategies with confidence scoring to filter meaningful knowledge from noise. Scans directories, files, or conversation history to extract categorized information. Supports multi-strategy extraction and custom filtering by confidence level or category.\n\nUse when you need to extract structured information from unstructured content, analyze documentation for issues and opportunities, process meeting notes for action items, or onboard to new projects by mining existing knowledge.\n\nTriggers: \"extract known issues\", \"find automation opportunities\", \"extract tasks from\", \"mine knowledge\", \"scan for\", \"extract actionable items\"\n",
+    "category": "project-knowledge",
+    "tags": [
+      "knowledge-extraction",
+      "document-mining",
+      "information-retrieval",
+      "structured-analysis",
+      "content-scanning",
+      "data-extraction"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "extraction-principles.md"
+      ],
+      "artifacts": [
+        "automation-opportunities/STRATEGY.md",
+        "todos/STRATEGY.md",
+        "open-questions/STRATEGY.md",
+        "participants/STRATEGY.md",
+        "tasks/STRATEGY.md",
+        "known-issues/STRATEGY.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/knowledge-mining"
+  },
+  {
+    "name": "create-repo-expert",
+    "description": "Creates read-only expert agents for repositories with access to code documentation and metadata.\nGenerates agent configurations with knowledge of repository structure, code patterns, and documentation.\nManages agent deployment to local or global locations with appropriate path configurations.\nLocates existing agents across local and global configurations showing precedence rules.\nRemoves expert agents from local/global locations with cleanup options for generated configs.\nValidates repository documentation structure and warns about missing metadata requirements.\nProvides expertise on repository code through AST-parsed documentation and structured knowledge access.\n\nUse when you need to create code experts, generate repository agents, deploy expert configurations, \nmanage agent locations, or remove repository experts. \n\nTriggers: \"create repository expert\", \"create repo expert\", \"generate expert agent\", \n\"where is agent\", \"remove expert agent\", \"deploy agent\", \"expert without knowledge\".\n",
+    "category": "agent-development",
+    "tags": [
+      "expert-agents",
+      "repository-knowledge",
+      "agent-configuration",
+      "code-documentation",
+      "agent-deployment"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "scripts": [
+        "generate_agent_configs.py"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/create-repo-expert"
+  },
+  {
+    "name": "generic-sdlc",
+    "description": "Guides users through structured software development lifecycle from idea to implementation using Prompt-Driven Design (PDD) process. Systematically progresses from rough idea to detailed design with implementation plan. Creates project structure with organized artifacts, conducts requirements clarification through guided questions, performs technology and library research, develops comprehensive design documentation, and generates implementation plans. Provides iterative checkpoints for research, design, and planning validation. Manages project artifacts including requirements documentation, research findings, detailed designs, and implementation plans. Integrates with PIR documentation and template creation processes.\n\nUse when starting new projects from initial concepts, converting requirements to designs, following structured development processes, or organizing project documentation. \n\nTriggers: \"Start SDLC process for\", \"Design feature\", \"Requirements to design\", \"PDD process\", \"Create project structure\", \"Development lifecycle\", \"Design system\".\n",
+    "category": "sdlc-process",
+    "tags": [
+      "sdlc",
+      "requirements-analysis",
+      "system-design",
+      "project-structure",
+      "implementation-planning",
+      "prompt-driven-design",
+      "documentation",
+      "agentic",
+      "knowledge-discovery",
+      "compliance-audit",
+      "living-methodology"
+    ],
+    "version": "1.1.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "skill-library-aila",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml",
+        "SKILL_SPEC.md"
+      ],
+      "references": [
+        "agentic_context_refresh.md",
+        "agentic_code_knowledge_extraction.md",
+        "03_requirements_clarification.md",
+        "06_create_detailed_design.md",
+        "01_create_project_structure.md",
+        "09_planning_iteration_checkpoint.md",
+        "agentic_evidence_methodology.md",
+        "02_initial_process_planning.md",
+        "04_research_relevant_information.md",
+        "08_develop_implementation_plan.md",
+        "agentic_knowledge_sources.md",
+        "agentic_validation_compliance.md",
+        "05_research_iteration_checkpoint.md",
+        "07_design_iteration_checkpoint.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/skill-library-aila/skill_library_aila/skills/generic-sdlc"
+  },
+  {
+    "name": "dataart-org-knowledge",
+    "description": "DataArt organizational knowledge and context",
+    "category": "external",
+    "tags": [
+      "anthropic",
+      "external"
+    ],
+    "version": "1.0.0",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "source_provider": "workspaces-dataart",
+    "resources": {
+      "root": [
+        "SKILL.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/agentic_aila/workspaces-dataart/dataart/dataart-org-knowledge"
+  },
+  {
+    "name": "cross-account-cicd-terragrunt",
+    "description": "Configure Terragrunt folder structure and GitLab CI/CD for cross-account deployments. Sets up account/region/environment hierarchy with role assumption. Triggers - setup cross-account CI/CD, configure Terragrunt cross-account, setup GitLab cross-account.",
+    "category": "infrastructure",
+    "tags": [
+      "cicd",
+      "terragrunt",
+      "cross-account",
+      "gitlab",
+      "automation"
+    ],
+    "version": "1.0.0",
+    "author": null,
+    "license": "Apache-2.0",
+    "source_provider": "demo-org-admin-repo",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "gitlab-ci-cross-account.md"
+      ],
+      "assets": [
+        "account_tags-template.hcl",
+        "account_vars-template.hcl",
+        "environment_vars-template.hcl",
+        "region_tags-template.hcl",
+        "region_vars-template.hcl",
+        "environment_tags-template.hcl"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/.venv/lib/python3.12/site-packages/demo_org_admin_repo/skills/cross-account-cicd-terragrunt"
+  },
+  {
+    "name": "cross-account-prerequisites",
+    "description": "Setup IAM roles, trust relationships, and policies for cross-account AWS deployments. Includes external ID security mechanism. Triggers - setup cross-account prerequisites, configure external account, create cross-account IAM roles.",
+    "category": "infrastructure",
+    "tags": [
+      "cross-account",
+      "iam",
+      "aws",
+      "security",
+      "external-id"
+    ],
+    "version": "1.0.0",
+    "author": null,
+    "license": "Apache-2.0",
+    "source_provider": "demo-org-admin-repo",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "scripts": [
+        "generate_test_script.py"
+      ],
+      "references": [
+        "external-id-guide.md",
+        "permissions-breakdown.md"
+      ],
+      "assets": [
+        "source-assume-role-policy-template.json",
+        "permissions-policy-template.json",
+        "trust-policy-template.json"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/.venv/lib/python3.12/site-packages/demo_org_admin_repo/skills/cross-account-prerequisites"
+  },
+  {
+    "name": "domain-terragrunt-checklist",
+    "description": "Validates domain terragrunt configuration using comprehensive checklists before deployment.\nAnalyzes domain stack configuration files, runs structured validation checks, and reports\npass/fail results with detailed issue identification. Provides automated fix recommendations\nfor common configuration problems. Supports multiple checklist types including basic checks,\nsecurity validation, and compliance verification. Locates domain stacks by path or name,\nvalidates file structure, include blocks, module paths, VPC configurations, and required inputs.\nGenerates validation reports with summary statistics and actionable recommendations.\n\nUse when validating domain configurations before deployment. \nTriggers: \"validate domain configuration\", \"check domain terragrunt config\", \n\"review domain stack before deployment\", \"run domain validation checks\",\n\"verify terragrunt setup\", \"check domain config compliance\"\n",
+    "category": "automation",
+    "tags": [
+      "terragrunt",
+      "domain-validation",
+      "configuration-check",
+      "deployment-validation",
+      "infrastructure-validation",
+      "checklist-automation"
+    ],
+    "version": "1.0.0",
+    "author": "dataart-aila",
+    "license": "Proprietary - DataArt Core IP. Cannot copy, modify, or use without DataArt permission.",
+    "source_provider": "demo-org-admin-repo",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "basic-checks.md",
+        "common-gotchas.md",
+        "test-cases.md"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/.venv/lib/python3.12/site-packages/demo_org_admin_repo/skills/domain-terragrunt-checklist"
+  },
+  {
+    "name": "configure-data-lake-infrastructure",
+    "description": "Configure complete data lake infrastructure with domain, team, and dataset stacks using Terragrunt. Creates three interdependent stacks in correct order. Triggers - configure data lake, setup data lake infrastructure, create data lake domain.",
+    "category": "infrastructure",
+    "tags": [
+      "data-lake",
+      "infrastructure",
+      "aws",
+      "terragrunt",
+      "s3",
+      "glue",
+      "lake-formation"
+    ],
+    "version": "1.0.0",
+    "author": null,
+    "license": "Apache-2.0",
+    "source_provider": "demo-org-admin-repo",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "stack-creation-sop.md",
+        "module-paths-guide.md",
+        "vpc-configuration-guide.md",
+        "terragrunt-structure.md"
+      ],
+      "assets": [
+        "domain-template.hcl",
+        "dataset-template.hcl",
+        "team-template.hcl"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/.venv/lib/python3.12/site-packages/demo_org_admin_repo/skills/configure-data-lake-infrastructure"
+  },
+  {
+    "name": "cross-account-deployment-role-permissions",
+    "description": "Configure IAM permissions for cross-account deployment role to enable Lake Formation operations and Terragrunt deployments. Adds Lake Formation permissions to PowerUserAccess role. Triggers - configure deployment role permissions, add Lake Formation permissions, setup cross-account role.",
+    "category": "infrastructure",
+    "tags": [
+      "cross-account",
+      "iam",
+      "permissions",
+      "aws",
+      "lake-formation",
+      "least-privilege"
+    ],
+    "version": "1.0.0",
+    "author": null,
+    "license": "Apache-2.0",
+    "source_provider": "demo-org-admin-repo",
+    "resources": {
+      "root": [
+        "SKILL.md",
+        "SKILL_META.yaml"
+      ],
+      "references": [
+        "lake-formation-guide.md",
+        "permissions-comparison.md"
+      ],
+      "assets": [
+        "lakeformation-policy-template.json"
+      ]
+    },
+    "_file_path": "/home/olegk/aila/.venv/lib/python3.12/site-packages/demo_org_admin_repo/skills/cross-account-deployment-role-permissions"
+  }
+]

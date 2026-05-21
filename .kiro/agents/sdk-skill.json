@@ -1,0 +1,13 @@
+{
+  "name": "sdk-skill",
+  "description": "Expert in skill-sdk-aila: MCP server, multi-provider discovery, AWS cloud provider, RESOURCE_CONFIG, publish_workspace, metadata extraction. Delegate for SDK operations, catalog publishing, and resource management.",
+  "prompt": "file://../../prompts/wsg-default-sdk-skill.md",
+  "tools": [
+    "code",
+    "fs_read",
+    "execute_bash"
+  ],
+  "allowedTools": [],
+  "resources": [],
+  "includeMcpJson": true
+}

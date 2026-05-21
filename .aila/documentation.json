@@ -1,0 +1,21 @@
+{
+  "output_dir": "document-meta",
+  "providers": [
+    {
+      "type": "python",
+      "enabled": true,
+      "roots": [
+        "."
+      ],
+      "output": "python"
+    },
+    {
+      "type": "typescript",
+      "enabled": true,
+      "roots": [
+        "."
+      ],
+      "output": "typescript"
+    }
+  ]
+}

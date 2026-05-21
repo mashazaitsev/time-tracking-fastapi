@@ -1,0 +1,1 @@
+../../../../../../../know-aila-tech/know_aila_tech/skills/aila-knowledge/artifacts/full-stack-fastapi-template/typescript/KNOW.md
