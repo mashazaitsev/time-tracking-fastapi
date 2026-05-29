@@ -15,6 +15,7 @@ import { Route as RecoverPasswordRouteImport } from './routes/recover-password'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as LayoutRouteImport } from './routes/_layout'
 import { Route as LayoutIndexRouteImport } from './routes/_layout/index'
+import { Route as LayoutVacationRequestsRouteImport } from './routes/_layout/vacation-requests'
 import { Route as LayoutTimeEntriesRouteImport } from './routes/_layout/time-entries'
 import { Route as LayoutSettingsRouteImport } from './routes/_layout/settings'
 import { Route as LayoutProjectsRouteImport } from './routes/_layout/projects'
@@ -48,6 +49,11 @@ const LayoutRoute = LayoutRouteImport.update({
 const LayoutIndexRoute = LayoutIndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => LayoutRoute,
+} as any)
+const LayoutVacationRequestsRoute = LayoutVacationRequestsRouteImport.update({
+  id: '/vacation-requests',
+  path: '/vacation-requests',
   getParentRoute: () => LayoutRoute,
 } as any)
 const LayoutTimeEntriesRoute = LayoutTimeEntriesRouteImport.update({
@@ -87,6 +93,7 @@ export interface FileRoutesByFullPath {
   '/projects': typeof LayoutProjectsRoute
   '/settings': typeof LayoutSettingsRoute
   '/time-entries': typeof LayoutTimeEntriesRoute
+  '/vacation-requests': typeof LayoutVacationRequestsRoute
 }
 export interface FileRoutesByTo {
   '/login': typeof LoginRoute
@@ -98,6 +105,7 @@ export interface FileRoutesByTo {
   '/projects': typeof LayoutProjectsRoute
   '/settings': typeof LayoutSettingsRoute
   '/time-entries': typeof LayoutTimeEntriesRoute
+  '/vacation-requests': typeof LayoutVacationRequestsRoute
   '/': typeof LayoutIndexRoute
 }
 export interface FileRoutesById {
@@ -112,6 +120,7 @@ export interface FileRoutesById {
   '/_layout/projects': typeof LayoutProjectsRoute
   '/_layout/settings': typeof LayoutSettingsRoute
   '/_layout/time-entries': typeof LayoutTimeEntriesRoute
+  '/_layout/vacation-requests': typeof LayoutVacationRequestsRoute
   '/_layout/': typeof LayoutIndexRoute
 }
 export interface FileRouteTypes {
@@ -127,6 +136,7 @@ export interface FileRouteTypes {
     | '/projects'
     | '/settings'
     | '/time-entries'
+    | '/vacation-requests'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/login'
@@ -138,6 +148,7 @@ export interface FileRouteTypes {
     | '/projects'
     | '/settings'
     | '/time-entries'
+    | '/vacation-requests'
     | '/'
   id:
     | '__root__'
@@ -151,6 +162,7 @@ export interface FileRouteTypes {
     | '/_layout/projects'
     | '/_layout/settings'
     | '/_layout/time-entries'
+    | '/_layout/vacation-requests'
     | '/_layout/'
   fileRoutesById: FileRoutesById
 }
@@ -213,6 +225,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LayoutTimeEntriesRouteImport
       parentRoute: typeof LayoutRoute
     }
+    '/_layout/vacation-requests': {
+      id: '/_layout/vacation-requests'
+      path: '/vacation-requests'
+      fullPath: '/vacation-requests'
+      preLoaderRoute: typeof LayoutVacationRequestsRouteImport
+      parentRoute: typeof LayoutRoute
+    }
     '/_layout/settings': {
       id: '/_layout/settings'
       path: '/settings'
@@ -250,6 +269,7 @@ interface LayoutRouteChildren {
   LayoutProjectsRoute: typeof LayoutProjectsRoute
   LayoutSettingsRoute: typeof LayoutSettingsRoute
   LayoutTimeEntriesRoute: typeof LayoutTimeEntriesRoute
+  LayoutVacationRequestsRoute: typeof LayoutVacationRequestsRoute
   LayoutIndexRoute: typeof LayoutIndexRoute
 }
 
@@ -259,6 +279,7 @@ const LayoutRouteChildren: LayoutRouteChildren = {
   LayoutProjectsRoute: LayoutProjectsRoute,
   LayoutSettingsRoute: LayoutSettingsRoute,
   LayoutTimeEntriesRoute: LayoutTimeEntriesRoute,
+  LayoutVacationRequestsRoute: LayoutVacationRequestsRoute,
   LayoutIndexRoute: LayoutIndexRoute,
 }
 

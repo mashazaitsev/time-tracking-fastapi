@@ -3,7 +3,7 @@
 import type { CancelablePromise } from './core/CancelablePromise';
 import { OpenAPI } from './core/OpenAPI';
 import { request as __request } from './core/request';
-import type { ItemsReadItemsData, ItemsReadItemsResponse, ItemsCreateItemData, ItemsCreateItemResponse, ItemsReadItemData, ItemsReadItemResponse, ItemsUpdateItemData, ItemsUpdateItemResponse, ItemsDeleteItemData, ItemsDeleteItemResponse, LoginLoginAccessTokenData, LoginLoginAccessTokenResponse, LoginTestTokenResponse, LoginRecoverPasswordData, LoginRecoverPasswordResponse, LoginResetPasswordData, LoginResetPasswordResponse, LoginRecoverPasswordHtmlContentData, LoginRecoverPasswordHtmlContentResponse, PrivateCreateUserData, PrivateCreateUserResponse, ProjectsReadProjectsData, ProjectsReadProjectsResponse, ProjectsCreateProjectData, ProjectsCreateProjectResponse, ProjectsReadProjectData, ProjectsReadProjectResponse, ProjectsUpdateProjectData, ProjectsUpdateProjectResponse, ProjectsDeleteProjectData, ProjectsDeleteProjectResponse, TimeEntriesGetSummaryResponse, TimeEntriesReadTimeEntriesData, TimeEntriesReadTimeEntriesResponse, TimeEntriesCreateTimeEntryData, TimeEntriesCreateTimeEntryResponse, TimeEntriesReadTimeEntryData, TimeEntriesReadTimeEntryResponse, TimeEntriesUpdateTimeEntryData, TimeEntriesUpdateTimeEntryResponse, TimeEntriesDeleteTimeEntryData, TimeEntriesDeleteTimeEntryResponse, UsersReadUsersData, UsersReadUsersResponse, UsersCreateUserData, UsersCreateUserResponse, UsersReadUserMeResponse, UsersDeleteUserMeResponse, UsersUpdateUserMeData, UsersUpdateUserMeResponse, UsersUpdatePasswordMeData, UsersUpdatePasswordMeResponse, UsersRegisterUserData, UsersRegisterUserResponse, UsersReadUserByIdData, UsersReadUserByIdResponse, UsersUpdateUserData, UsersUpdateUserResponse, UsersDeleteUserData, UsersDeleteUserResponse, UtilsTestEmailData, UtilsTestEmailResponse, UtilsHealthCheckResponse } from './types.gen';
+import type { ItemsReadItemsData, ItemsReadItemsResponse, ItemsCreateItemData, ItemsCreateItemResponse, ItemsReadItemData, ItemsReadItemResponse, ItemsUpdateItemData, ItemsUpdateItemResponse, ItemsDeleteItemData, ItemsDeleteItemResponse, LoginLoginAccessTokenData, LoginLoginAccessTokenResponse, LoginTestTokenResponse, LoginRecoverPasswordData, LoginRecoverPasswordResponse, LoginResetPasswordData, LoginResetPasswordResponse, LoginRecoverPasswordHtmlContentData, LoginRecoverPasswordHtmlContentResponse, PrivateCreateUserData, PrivateCreateUserResponse, ProjectsReadProjectsData, ProjectsReadProjectsResponse, ProjectsCreateProjectData, ProjectsCreateProjectResponse, ProjectsReadProjectData, ProjectsReadProjectResponse, ProjectsUpdateProjectData, ProjectsUpdateProjectResponse, ProjectsDeleteProjectData, ProjectsDeleteProjectResponse, TimeEntriesGetSummaryResponse, TimeEntriesReadTimeEntriesData, TimeEntriesReadTimeEntriesResponse, TimeEntriesCreateTimeEntryData, TimeEntriesCreateTimeEntryResponse, TimeEntriesReadTimeEntryData, TimeEntriesReadTimeEntryResponse, TimeEntriesUpdateTimeEntryData, TimeEntriesUpdateTimeEntryResponse, TimeEntriesDeleteTimeEntryData, TimeEntriesDeleteTimeEntryResponse, UsersReadUsersData, UsersReadUsersResponse, UsersCreateUserData, UsersCreateUserResponse, UsersReadUserMeResponse, UsersDeleteUserMeResponse, UsersUpdateUserMeData, UsersUpdateUserMeResponse, UsersUpdatePasswordMeData, UsersUpdatePasswordMeResponse, UsersRegisterUserData, UsersRegisterUserResponse, UsersReadUserByIdData, UsersReadUserByIdResponse, UsersUpdateUserData, UsersUpdateUserResponse, UsersDeleteUserData, UsersDeleteUserResponse, UtilsTestEmailData, UtilsTestEmailResponse, UtilsHealthCheckResponse, VacationRequestsReadVacationRequestsData, VacationRequestsReadVacationRequestsResponse, VacationRequestsCreateVacationRequestData, VacationRequestsCreateVacationRequestResponse, VacationRequestsReadVacationRequestData, VacationRequestsReadVacationRequestResponse, VacationRequestsUpdateVacationRequestData, VacationRequestsUpdateVacationRequestResponse, VacationRequestsDeleteVacationRequestData, VacationRequestsDeleteVacationRequestResponse } from './types.gen';
 
 export class ItemsService {
     /**
@@ -1152,6 +1152,118 @@ export class UtilsService {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/api/v1/utils/health-check/'
+        });
+    }
+}
+
+
+export class VacationRequestsService {
+    /**
+     * Read Vacation Requests
+     * Purpose: Retrieve paginated list of all vacation requests
+     * @param data The data for the request.
+     * @param data.skip
+     * @param data.limit
+     * @returns VacationRequestsPublic Successful Response
+     * @throws ApiError
+     */
+    public static readVacationRequests(data: VacationRequestsReadVacationRequestsData = {}): CancelablePromise<VacationRequestsReadVacationRequestsResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/vacation-requests/',
+            query: {
+                skip: data.skip,
+                limit: data.limit
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+
+    /**
+     * Create Vacation Request
+     * Purpose: Create a new vacation request owned by the current user
+     * @param data The data for the request.
+     * @param data.requestBody
+     * @returns VacationRequestPublic Successful Response
+     * @throws ApiError
+     */
+    public static createVacationRequest(data: VacationRequestsCreateVacationRequestData): CancelablePromise<VacationRequestsCreateVacationRequestResponse> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/api/v1/vacation-requests/',
+            body: data.requestBody,
+            mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+
+    /**
+     * Read Vacation Request
+     * Purpose: Retrieve a single vacation request by ID
+     * @param data The data for the request.
+     * @param data.id
+     * @returns VacationRequestPublic Successful Response
+     * @throws ApiError
+     */
+    public static readVacationRequest(data: VacationRequestsReadVacationRequestData): CancelablePromise<VacationRequestsReadVacationRequestResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/vacation-requests/{id}',
+            path: {
+                id: data.id
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+
+    /**
+     * Update Vacation Request
+     * Purpose: Update an existing vacation request with ownership check
+     * @param data The data for the request.
+     * @param data.id
+     * @param data.requestBody
+     * @returns VacationRequestPublic Successful Response
+     * @throws ApiError
+     */
+    public static updateVacationRequest(data: VacationRequestsUpdateVacationRequestData): CancelablePromise<VacationRequestsUpdateVacationRequestResponse> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/api/v1/vacation-requests/{id}',
+            path: {
+                id: data.id
+            },
+            body: data.requestBody,
+            mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+
+    /**
+     * Delete Vacation Request
+     * Purpose: Delete a vacation request with ownership check
+     * @param data The data for the request.
+     * @param data.id
+     * @returns Message Successful Response
+     * @throws ApiError
+     */
+    public static deleteVacationRequest(data: VacationRequestsDeleteVacationRequestData): CancelablePromise<VacationRequestsDeleteVacationRequestResponse> {
+        return __request(OpenAPI, {
+            method: 'DELETE',
+            url: '/api/v1/vacation-requests/{id}',
+            path: {
+                id: data.id
+            },
+            errors: {
+                422: 'Validation Error'
+            }
         });
     }
 }

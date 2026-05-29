@@ -1,0 +1,7 @@
+id: dataart-aila/skills/sdlc-discovery-design-business
+name: sdlc-discovery-design-business
+description: "Business stakeholder extension of sdlc-discovery-design. Adds ROI focus, stakeholder requirements, change management, and business deliverable templates. Triggers: business SDLC, business requirements, business design, stakeholder focus."
+category: sdlc-process
+tags: [sdlc, business, stakeholders, requirements, roi, change-management]
+version: "1.0.0"
+author: dataart-aila

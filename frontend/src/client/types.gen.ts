@@ -448,3 +448,76 @@ export type UtilsTestEmailData = {
 export type UtilsTestEmailResponse = (Message);
 
 export type UtilsHealthCheckResponse = (boolean);
+
+
+/**
+ * Purpose: Schema for vacation request creation
+ */
+export type VacationRequestCreate = {
+    start_date: string;
+    end_date: string;
+    reason: string;
+};
+
+/**
+ * Purpose: VacationRequest response schema with owner reference
+ */
+export type VacationRequestPublic = {
+    start_date: string;
+    end_date: string;
+    reason: string;
+    status: string;
+    id: string;
+    owner_id: string;
+    created_at?: (string | null);
+};
+
+/**
+ * Purpose: Paginated vacation request list response
+ */
+export type VacationRequestsPublic = {
+    data: Array<VacationRequestPublic>;
+    count: number;
+};
+
+/**
+ * Purpose: Schema for vacation request update (all fields optional)
+ */
+export type VacationRequestUpdate = {
+    start_date?: (string | null);
+    end_date?: (string | null);
+    reason?: (string | null);
+    status?: (string | null);
+};
+
+export type VacationRequestsReadVacationRequestsData = {
+    limit?: number;
+    skip?: number;
+};
+
+export type VacationRequestsReadVacationRequestsResponse = (VacationRequestsPublic);
+
+export type VacationRequestsCreateVacationRequestData = {
+    requestBody: VacationRequestCreate;
+};
+
+export type VacationRequestsCreateVacationRequestResponse = (VacationRequestPublic);
+
+export type VacationRequestsReadVacationRequestData = {
+    id: string;
+};
+
+export type VacationRequestsReadVacationRequestResponse = (VacationRequestPublic);
+
+export type VacationRequestsUpdateVacationRequestData = {
+    id: string;
+    requestBody: VacationRequestUpdate;
+};
+
+export type VacationRequestsUpdateVacationRequestResponse = (VacationRequestPublic);
+
+export type VacationRequestsDeleteVacationRequestData = {
+    id: string;
+};
+
+export type VacationRequestsDeleteVacationRequestResponse = (Message);

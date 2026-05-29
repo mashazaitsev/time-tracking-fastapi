@@ -1,0 +1,20 @@
+{
+  "providers": [
+    {
+      "type": "python",
+      "enabled": true,
+      "roots": [
+        "."
+      ],
+      "output": "python"
+    },
+    {
+      "type": "typescript",
+      "enabled": true,
+      "roots": [
+        "."
+      ],
+      "output": "typescript"
+    }
+  ]
+}

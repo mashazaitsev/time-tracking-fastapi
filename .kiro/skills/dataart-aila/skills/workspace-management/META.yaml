@@ -1,0 +1,7 @@
+id: dataart-aila/skills/workspace-management
+name: workspace-management
+description: "Define, generate, and manage Kiro and Claude Code workspaces with catalog skill integration. Triggers: create workspace, generate workspace, add agent, workspace management."
+category: workspace-management
+tags: [workspace, kiro, claude-code, agents, generation]
+version: "2.0.0"
+author: dataart-aila

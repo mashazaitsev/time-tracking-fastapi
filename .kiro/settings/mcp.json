@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "catalog": {
+      "command": "/opt/homebrew/bin/catalog-mcp",
+      "env": {
+        "MCP_URL": "https://bedrock-agentcore.us-east-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-east-2%3A423671573754%3Aruntime%2Fcatalog_mcp_server_demo_use2-kAP1bZ5D68/invocations?qualifier=DEFAULT",
+        "MCP_CLIENT_ID": "1vhmkle39ruuf75969kkphfke8",
+        "MCP_COGNITO_DOMAIN": "ai-domain-use2-dev1-us-east-2-auth"
+      },
+      "autoApprove": [
+        "list",
+        "get",
+        "search",
+        "create",
+        "update",
+        "submit",
+        "deprecate"
+      ]
+    }
+  }
+}

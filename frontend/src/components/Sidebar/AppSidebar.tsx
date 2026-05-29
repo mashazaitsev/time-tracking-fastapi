@@ -8,7 +8,7 @@
  *     Used by: Authenticated layout shell
  */
 
-import { Briefcase, Clock, FolderOpen, Home, Users } from "lucide-react"
+import { Briefcase, Clock, FolderOpen, Home, TreePalm, Users } from "lucide-react"
 
 import { SidebarAppearance } from "@/components/Common/Appearance"
 import { Logo } from "@/components/Common/Logo"
@@ -27,6 +27,7 @@ const baseItems: Item[] = [
   { icon: Briefcase, title: "Items", path: "/items" },
   { icon: FolderOpen, title: "Projects", path: "/projects" },
   { icon: Clock, title: "Time Entries", path: "/time-entries" },
+  { icon: TreePalm, title: "Vacation Requests", path: "/vacation-requests" },
 ]
 
 /**

@@ -1,0 +1,16 @@
+{
+  "generated": {
+    "skills": [
+      "dataart-aila/skills/sdlc-discovery-design-business",
+      "dataart-aila/skills/sdlc-implementation",
+      "dataart-aila/skills/workspace-management"
+    ],
+    "hooks": [],
+    "steering": [
+      "wsg-agent-guide.md"
+    ],
+    "agents": [
+      "dev"
+    ]
+  }
+}

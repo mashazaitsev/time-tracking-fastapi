@@ -1,0 +1,7 @@
+id: dataart-aila/skills/sdlc-implementation
+name: sdlc-implementation
+description: "Continuation of sdlc-discovery-design. Takes design artifacts or Jira stories and delivers working code via TDD with documentation. Triggers: implement design, create tasks, execute implementation, generate deliverables."
+category: sdlc-process
+tags: [sdlc, implementation, tdd, code-tasks, documentation]
+version: "1.0.0"
+author: dataart-aila

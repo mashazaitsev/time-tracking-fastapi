@@ -1,0 +1,13 @@
+{
+  "name": "dev",
+  "description": "Full-stack developer",
+  "prompt": "file://prompts/dev.md",
+  "tools": [
+    "code",
+    "bash",
+    "browser"
+  ],
+  "allowedTools": [],
+  "resources": [],
+  "includeMcpJson": true
+}
